@@ -1,73 +1,55 @@
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: #111;
-  color: #fff;
-}
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XAMAI TOP-UP</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:Arial,sans-serif;background:#111;color:#fff;}
+    header{text-align:center;padding:10px;}
+    .logo{width:140px;margin:0 auto;display:block;}
+    .notice{background:#e03e2d;color:#fff;padding:8px;font-size:16px;}
+    .banner img{width:100%;display:block;}
+    .products{padding:20px;text-align:center;}
+    .products h2{color:#00f0ff;margin-bottom:15px;font-size:24px;}
+    .product-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;}
+    .card{background:#222;padding:12px;border-radius:8px;color:#fff;text-decoration:none;font-weight:bold;transition:0.3s;}
+    .card:hover{background:#00f0ff;color:#000;}
+    .bottom-nav{position:fixed;bottom:0;width:100%;background:#000;display:flex;justify-content:space-around;padding:8px 0;}
+    .bottom-nav a{color:#fff;text-decoration:none;font-size:14px;}
+  </style>
+</head>
+<body>
 
-.logo {
-  width: 150px;
-  display: block;
-  margin: 10px auto;
-}
+  <header>
+    <!-- Placeholder logo; পরে আপনার মন মতো লোগো দিয়ে বদলাবেন -->
+    <img src="https://via.placeholder.com/200x60/FFFFFF/000000?text=XAMAI+TOP-UP" class="logo" alt="XAMAI TOP-UP Logo">
+    <div class="notice">সবচেয়ে দ্রুত UID টপ-আপ সেবা! একবার অর্ডার দিন, বিশ্বস্ততার প্রমাণ পান।</div>
+  </header>
 
-.notice {
-  background: red;
-  color: white;
-  padding: 8px 0;
-  font-size: 16px;
-}
+  <section class="banner">
+    <!-- Placeholder banner; পরে আপনার ছবি দিয়ে বদলাবেন -->
+    <img src="https://via.placeholder.com/800x250/444444/00FFFF?text=Top-Up+Banner" alt="Top-Up Banner">
+  </section>
 
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+  <section class="products">
+    <h2>আমাদের প্যাকেজ</h2>
+    <div class="product-list">
+      <a href="#" class="card">UID Top-Up</a>
+      <a href="#" class="card">Weekly Pack</a>
+      <a href="#" class="card">Monthly Pack</a>
+      <a href="#" class="card">100 Likes</a>
+      <a href="#" class="card">Season Pass</a>
+    </div>
+  </section>
 
-.products {
-  padding: 20px;
-  text-align: center;
-}
+  <footer class="bottom-nav">
+    <a href="#">হোম</a>
+    <a href="#">টিউটোরিয়াল</a>
+    <a href="#">অর্ডার</a>
+    <a href="#">যোগাযোগ</a>
+  </footer>
 
-.products h2 {
-  margin-bottom: 15px;
-  font-size: 24px;
-  color: #00f0ff;
-}
-
-.product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 10px;
-}
-
-.card {
-  background: #222;
-  padding: 15px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.card:hover {
-  background: #00f0ff;
-  color: black;
-}
-
-.bottom-nav {
-  background: #000;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.bottom-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
+</body>
+</html>
