@@ -1,24 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>XAMAI TOP-UP</title>
-</head>
-<body>
-  <h1>XAMAI TOP-UP</h1>
-  <p>Free Fire UID দিয়ে টপ-আপ করুন</p>
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #111;
+  color: #fff;
+}
 
-  <form>
-    <label for="uid">Enter Free Fire UID:</label><br>
-    <input type="text" id="uid" name="uid"><br><br>
-    <button type="submit">Check Now</button>
-  </form>
+.logo {
+  width: 150px;
+  display: block;
+  margin: 10px auto;
+}
 
-  <h3>Payment Method:</h3>
-  <ul>
-    <li>Bkash Personal: 01311759747</li>
-    <li>Nagad Personal: 01311759747</li>
-    <li>Rocket Personal: 01311759747</li>
-    <li>Upay Personal: 01311759747</li>
-  </ul>
-</body>
-</html>
+.notice {
+  background: red;
+  color: white;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.products {
+  padding: 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #00f0ff;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #00f0ff;
+  color: black;
+}
+
+.bottom-nav {
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
