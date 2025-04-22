@@ -1,53 +1,89 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>XAMAI TOP-UP</title>
   <style>
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{font-family:Arial,sans-serif;background:#111;color:#fff;}
-    header{text-align:center;padding:10px;}
-    .logo{width:140px;margin:0 auto;display:block;}
-    .notice{background:#e03e2d;color:#fff;padding:8px;font-size:16px;text-align:center;}
-    .banner img{width:100%;display:block;}
-    .products{padding:20px;text-align:center;}
-    .products h2{color:#00f0ff;margin-bottom:15px;font-size:24px;}
-    .product-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;}
-    .card{background:#222;padding:12px;border-radius:8px;color:#fff;text-decoration:none;font-weight:bold;transition:0.3s;}
-    .card:hover{background:#00f0ff;color:#000;}
-    .bottom-nav{position:fixed;bottom:0;width:100%;background:#000;display:flex;justify-content:space-around;padding:8px 0;}
-    .bottom-nav a{color:#fff;text-decoration:none;font-size:14px;}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .notice {
+      background: #ffcc00;
+      color: black;
+      padding: 5px;
+    }
+    .banner img {
+      width: 100%;
+      height: auto;
+    }
+    .products {
+      padding: 20px;
+      text-align: center;
+    }
+    .card {
+      display: inline-block;
+      background: white;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      width: 150px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: black;
+    }
+    .card:hover {
+      background: #00f0ff;
+    }
+    .bottom-nav {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .bottom-nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="https://via.placeholder.com/200x60/FFFFFF/000000?text=XAMAI+TOP-UP" class="logo" alt="XAMAI TOP-UP Logo">
-    <div class="notice">সবচেয়ে দ্রুত UID টপ-আপ সেবা! একবার অর্ডার দিন, বিশ্বস্ততার প্রমাণ পান।</div>
-  </header>
+<header>
+  <img src="https://via.placeholder.com/150x50?text=XAMAI+TOP-UP" alt="Logo">
+  <div class="notice">সবচেয়ে দ্রুত টপ-আপ সেবা!</div>
+</header>
 
-  <section class="banner">
-    <img src="https://via.placeholder.com/800x250/444444/00FFFF?text=Top-Up+Banner" alt="Top-Up Banner">
-  </section>
+<section class="banner">
+  <img src="https://via.placeholder.com/600x200?text=Top-Up+Banner" alt="Banner">
+</section>
 
-  <section class="products">
-    <h2>আমাদের প্যাকেজ</h2>
-    <div class="product-list">
-      <a href="#" class="card">UID Top-Up</a>
-      <a href="#" class="card">Weekly Pack</a>
-      <a href="#" class="card">Monthly Pack</a>
-      <a href="#" class="card">100 Likes</a>
-      <a href="#" class="card">Season Pass</a>
-    </div>
-  </section>
+<section class="products">
+  <h2>আমাদের প্যাকেজ</h2>
+  <div class="product-list">
+    <a href="#" class="card">UID Top-Up</a>
+    <a href="#" class="card">Weekly Member</a>
+    <a href="#" class="card">Monthly Member</a>
+    <a href="#" class="card">100 Diamond</a>
+    <a href="#" class="card">Special Offer</a>
+  </div>
+</section>
 
-  <footer class="bottom-nav">
-    <a href="#">হোম</a>
-    <a href="#">টিউটোরিয়াল</a>
-    <a href="#">অর্ডার</a>
-    <a href="#">যোগাযোগ</a>
-  </footer>
+<footer class="bottom-nav">
+  <a href="#">হোম</a>
+  <a href="#">টিউটোরিয়াল</a>
+  <a href="#">অর্ডার</a>
+  <a href="#">যোগাযোগ</a>
+</footer>
 
 </body>
 </html>
